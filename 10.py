@@ -1,8 +1,6 @@
-a = input('Номер рейса')
-b = input('Название авикомпании (на русском)')
-c = input('Название авикомпании (на английском)')
-d = input('Город прилёта (на русском)')
-e = input('Город прилёта (на английском)')
+silv = 96
+silv_cost = 48
+gold = 6
+summ = int(input())
 
-print('Заканчивается посадка на рейс', a, 'авиакомпании', b, 'до города', d, sep=' ')
-print('This is the final boarding call for', c, 'flight', a, 'to', e, sep=' ')
+print((summ - silv * silv_cost) / gold)

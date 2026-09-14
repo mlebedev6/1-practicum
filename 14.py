@@ -1,3 +1,3 @@
-a = int(input())
+a = map(str, input().split())
 
-print(a - 4)
+print(*a, sep='\n')

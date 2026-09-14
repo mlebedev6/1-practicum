@@ -1,8 +1,2 @@
-santimeters = float(input())
-
-inches = santimeters / 2.54
-feet = inches / 12
-yards = feet / 3
-miles = yards / 1760
-
-print(inches, 'дюймов\n', feet, 'футов\n', yards, 'ярдов\n', miles, 'мили')
+print(1 + 1 + 7 + 7 ** 3 + 7 ** 4)
+# рассказчик + мужчина + жёны + кошки + котята

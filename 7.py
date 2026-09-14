@@ -1,7 +1,5 @@
-a = input('Как Вас зовут? ')
+log = input('Login: ')
+password = input('Password: ')
+new_pass = input('New password: ')
 
-print('Здравствуйте', a, sep=', ')
-
-b = input('Чем Вам нравится заниматься? ')
-
-print('Отлично!', b, '- хорошее увлечение.', sep=' ')
+print('User', a, 'has changed the password to', b, sep=' ')

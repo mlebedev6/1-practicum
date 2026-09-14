@@ -1,5 +1,12 @@
-a = input('Login: ')
-b = input('Password: ')
-c = input('New password: ')
+pl = []
 
-print('User', a, 'has changed the password to', b, sep=' ')
+print("Введите плей-лист папы:")
+while True:
+    a = input()
+    if not a:
+        break
+    pl.append(a)
+
+print("Плей-лист мамы:")
+for i in pl[::-1]:
+    print(i)

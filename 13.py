@@ -1,8 +1,8 @@
-from math import pi
+santimeters = float(input())
 
-r_first = int(input())
-r_second = int(input())
-if r_first > r_second:
-    print(pi * (r_first ** 2 - r_second ** 2))
-else:
-    print(pi * (r_second ** 2 - r_first ** 2))
+inches = santimeters / 2.54
+feet = inches / 12
+yards = feet / 3
+miles = yards / 1760
+
+print(inches, 'дюймов\n', feet, 'футов\n', yards, 'ярдов\n', miles, 'мили')

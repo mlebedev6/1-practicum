@@ -1,12 +1,8 @@
-pl = []
+a = input('Номер рейса')
+b = input('Название авикомпании (на русском)')
+c = input('Название авикомпании (на английском)')
+d = input('Город прилёта (на русском)')
+e = input('Город прилёта (на английском)')
 
-print("Введите плей-лист папы:")
-while True:
-    a = input()
-    if not a:
-        break
-    pl.append(a)
-
-print("Плей-лист мамы:")
-for i in pl[::-1]:
-    print(i)
+print('Заканчивается посадка на рейс', a, 'авиакомпании', b, 'до города', d, sep=' ')
+print('This is the final boarding call for', c, 'flight', a, 'to', e, sep=' ')
